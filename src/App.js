@@ -15,12 +15,19 @@ function App() {
   return (
     <div>
       <Container>
-          <Navi1/>
         <Row>
-          <Col xs="3">  
+          <Col> 
+          <Navi1/>
+          </Col>
+          
+        </Row>
+      </Container>
+      <Container  >
+        <Row>
+          <Col xs="2">  
             <CategoryList title="Category List"/>
           </Col>
-          <Col xs="9">  
+          <Col xs="8">  
             <Videos title="Videos"/>
           </Col>
         </Row>

@@ -30,8 +30,8 @@ export default class Navi1 extends Component {
 
   render() {
     return (
-      <div>
-        <Navbar color="primary" dark  {...this.props}>
+      <div absolut >
+        <Navbar color="primary" dark fixed='#' expand='false' {...this.props}>
           <NavbarBrand href="/">SHHH</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
