@@ -3,25 +3,26 @@ import'bootstrap'
 import Navi1 from './Navi1';
 import CategoryList from './CategoryList';
 import Videos from './Videos';
-import {Col, Container,Row} from 'reactstrap';
+import {
+  Col, 
+  Container,
+  Row,
+  
+} from 'reactstrap';
 
 
 function App() {
   return (
     <div>
       <Container>
-        <Row>
           <Navi1/>
-        </Row>
         <Row>
           <Col xs="3">  
-            <CategoryList/>
+            <CategoryList title="Category List"/>
           </Col>
           <Col xs="9">  
-            <Videos/>
+            <Videos title="Videos"/>
           </Col>
-
-          
         </Row>
       </Container>
     </div>
