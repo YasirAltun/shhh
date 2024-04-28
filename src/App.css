@@ -1,0 +1,12 @@
+.arkaPlan{
+   background-image: url('./images/pieces-blue-stationery.jpg'); /* Arka plan resminizin URL'ini belirtin */
+  background-size: cover; /* Resmi sayfanın tamamını kapsayacak şekilde genişletir */
+  background-position: center; /* Resmi sayfanın ortasında hizalar */
+  background-repeat: no-repeat; /* Resmin tekrar edilmesini önler */
+  height:100vh; /* Sayfanın tam yüksekliğini kaplamasını sağlar */
+  width: 100%;
+  margin: 0; /* Varsayılan tarayıcı boşluklarını kaldırır */
+} 
+.heros{
+
+}

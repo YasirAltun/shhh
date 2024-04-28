@@ -1,38 +1,44 @@
 import React from 'react';
 import'bootstrap'
-import Navi1 from './Navi1';
-import CategoryList from './CategoryList';
-import Videos from './Videos';
+import Navi1 from './components/navbar/Navi1';
+import Navi2 from './components/navbar/Navi2';
+import './App.css'
+
+import CategoryList from './components/CategoriList/CategoryList';
+import Videos from './components/Videos/Videos';
 import {
   Col, 
-  Container,
   Row,
   
 } from 'reactstrap';
-
+import arkaPlan from './images/pieces-blue-stationery.jpg'
 
 function App() {
   return (
-    <div>
-      <Container>
+    <section className='arkaPlan'>
+      
+      <div className='heros'>
         <Row>
           <Col> 
           <Navi1/>
+
+
           </Col>
           
         </Row>
-      </Container>
-      <Container  >
+      </div>
+      <div className='shhh-container'  >
         <Row>
           <Col xs="2">  
             <CategoryList title="Category List"/>
           </Col>
-          <Col xs="8">  
+          <Col xs="10">  
             <Videos title="Videos"/>
           </Col>
         </Row>
-      </Container>
-    </div>
+      </div>
+    </section>
+    
   );
 }
 
