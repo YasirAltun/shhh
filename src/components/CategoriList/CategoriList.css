@@ -1,14 +1,28 @@
 .button {
     margin-top: 2%;
     margin-bottom: 2%;
-    background-color: white;
-    color: black;
-    border-color: black ;
-    border-block:  2px;
-    text-emphasis-color: black;
+    background-color: '#ff5722';
+    color: '#ffffff'; 
+       
 }
-.button:hover {
-    margin-top: 2%;
-    margin-bottom: 2%;
-    background-color: grey;
+.button:hover{
+    background-color: darkblue;
+
 }
+.btn1{
+    border: none;
+    background-color: blue;
+    color: #fff;
+    border-radius: 4px;
+    height: 36px;
+    width: 120px;
+    margin: 10px 10px 10px 10px  ;
+
+}
+.btn1:hover{
+    background-color: darkblue;
+}
+.ttl1{
+    color: #fff;
+}
+

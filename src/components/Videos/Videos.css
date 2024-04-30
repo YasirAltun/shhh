@@ -1,0 +1,24 @@
+.ttl1{
+    color: #fff;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    height: 600px;
+    align-items: stretch;
+}
+.box{
+    text-align: center;
+    background-color: #fff;
+    width: 200 px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
