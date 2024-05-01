@@ -20,14 +20,15 @@ function App() {
       <div className='heros'>
         <Row>
           <Col> 
-          <Navi1/>
+          
+          <Navi2/>
 
 
           </Col>
           
         </Row>
       </div>
-      <div className='shhh-container'  >
+      <div  >
         <Row>
           <Col xs="2">  
             <CategoryList title="Category List"/>

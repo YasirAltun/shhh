@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
-import Button from '@mui/material/Button';
-import '@mui/material/colors'
+
 import './CategoriList.css'
 
 
@@ -12,14 +11,29 @@ export default class CategoryList extends Component {
     return (
       
       <div >
-        <h3 className='ttl1'>Category List</h3>
-          <button className='btn1'  href='/Python/'>Python</button> 
-          <button className='btn1'  href='/C#/'>C#</button> 
-          <button className='btn1'  href='/C++/'>C++</button> 
-          <button className='btn1'  href='/Assembly/'>Assembly</button> 
-          <button className='btn1'  href='/Java/'>Java</button> 
-          <button className='btn1'  href='/JavaScript/'>JavaScript</button> 
-          <button className='btn1'  href='/HTML/'>HTML</button> 
+        <h3 className="ttl3" >Category List</h3>
+        
+
+        <div >
+         <ul ><button id='#Python' className='btn1' >Python</button> </ul> 
+        </div>
+
+        <div >
+         <ul><button id='#C++' className='btn1'>C++</button> </ul> 
+        </div>
+
+        <div >
+         <ul><button id='#C#' className='btn1'>C#</button> </ul> 
+        </div>
+
+        <div >
+         <ul><button id='#Assembly' className='btn1' >Assembly</button> </ul> 
+        </div>
+
+        <div >
+         <ul><button id='#Java' className='btn1'>Java</button> </ul> 
+        </div>
+        
 
       </div>
     )
