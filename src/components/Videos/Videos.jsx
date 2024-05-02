@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import './Videos.css'
 import { Card } from "./Card";
+import YoutubeEmbed from "./YoutubeEmbed";
+
 
 
 
@@ -24,7 +26,8 @@ export default class Videos extends Component {
           title="Python-1"
           description="Python Giriş Dersi 1"
           buttonText="İZLE"
-          link="https://www.youtube.com/watch?v=Ar4SNZY3dmo"
+          link=<YoutubeEmbed embedId=""></YoutubeEmbed>
+         
         />
 
         <Card
