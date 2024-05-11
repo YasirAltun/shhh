@@ -13,7 +13,7 @@ export default function App() {
   return (
     <section className="hero">
       {/* navbar */}
-      <div>
+      <div className="NAVI">
         <Navi />
       </div>
 

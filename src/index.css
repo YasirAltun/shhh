@@ -11,3 +11,43 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.card {
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  padding: 20px;
+  margin: 20px;
+
+
+}
+
+.card-image img{
+  width: 249px;
+}
+.card-button button{
+  background-color: #61dafb;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+}
+.card-button button:hover{
+  background-color: #45a8d6;
+}
+
+.stack-cards{
+  width: 80%;
+  text-align: center ;
+  margin-left: 10%;
+
+
+}
+.stack-cards > .card {
+  display: inline-block;
+}
